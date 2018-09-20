@@ -1,0 +1,21 @@
+version: 1.0.{build}.{branch}
+
+build: off
+
+matrix:
+  fast_finish: true
+
+# Always use a 64-bit machine.
+platform:
+  - x64
+
+install:
+  - choco pack
+
+test_script:
+  - install.bat
+  - pypy3 --version
+
+artifacts:
+  - path: '**\*.nupkg' # find all NuGet packages recursively
+    name: python.pypy3
