@@ -1,5 +1,5 @@
-``python.pypy3``
-================
+``pypy3``
+=========
 
     A Chocolatey package for PyPy 3.
 
@@ -9,13 +9,13 @@
 
 `Chocolatey package link`_.
 
-.. _Chocolatey package link: https://chocolatey.org/packages/python.pypy3
+.. _Chocolatey package link: https://chocolatey.org/packages/pypy3
 
 Installing
 **********
 
 ``install.bat`` is a helper for re-installing the package during development.
 
-.. |appveyor-build| image:: https://img.shields.io/appveyor/ci/dhermes/bezier/master.svg?maxAge=3600&label=AppVeyor
+.. |appveyor-build| image:: https://img.shields.io/appveyor/ci/dhermes/python-pypy3/master.svg?maxAge=3600&label=AppVeyor
    :target: https://ci.appveyor.com/project/dhermes/python-pypy3/history
    :alt: AppVeyor CI Build

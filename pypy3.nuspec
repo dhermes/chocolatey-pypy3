@@ -2,14 +2,14 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>python.pypy3</id>
+    <id>pypy3</id>
     <version>6.0.0</version>
-    <packageSourceUrl>https://github.com/dhermes/python.pypy3</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dhermes/chocolatey-pypy3</packageSourceUrl>
     <owners>Danny Hermes</owners>
     <title>PyPy 3</title>
     <authors>The PyPy Developers</authors>
     <projectUrl>http://www.pypy.org</projectUrl>
-    <iconUrl>https://rawgit.com/dhermes/python.pypy3/master/pypy-icon.png</iconUrl>
+    <iconUrl>https://rawgit.com/dhermes/chocolatey-pypy3/master/pypy-icon.png</iconUrl>
     <copyright>2003-2018 The PyPy Developers</copyright>
     <licenseUrl>https://bitbucket.org/pypy/pypy/src/release-pypy3.5-v6.0.0/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

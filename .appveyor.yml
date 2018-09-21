@@ -18,4 +18,4 @@ test_script:
 
 artifacts:
   - path: '**\*.nupkg' # find all NuGet packages recursively
-    name: python.pypy3
+    name: pypy3
