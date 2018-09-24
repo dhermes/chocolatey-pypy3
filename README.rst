@@ -16,6 +16,6 @@ Installing
 
 ``install.bat`` is a helper for re-installing the package during development.
 
-.. |appveyor-build| image:: https://img.shields.io/appveyor/ci/dhermes/python-pypy3/master.svg?maxAge=3600&label=AppVeyor
-   :target: https://ci.appveyor.com/project/dhermes/python-pypy3/history
+.. |appveyor-build| image:: https://img.shields.io/appveyor/ci/dhermes/chocolatey-pypy3/master.svg?maxAge=3600&label=AppVeyor
+   :target: https://ci.appveyor.com/project/dhermes/chocolatey-pypy3/history
    :alt: AppVeyor CI Build
