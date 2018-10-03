@@ -56,6 +56,13 @@ def main():
         all3("win_exc", win_exc)
         all3("win_exc.__dict__", getattr(win_exc, "__dict__", None))
 
+    try:
+        size = os.get_terminal_size()
+        all3("no args size", size)
+    except Exception as exc:
+        all3("no args exc", exc)
+        all3("no args exc.args", exc.args)
+
 
 if __name__ == "__main__":
     main()
