@@ -10,8 +10,9 @@ platform:
   - x64
 
 install:
-  - choco install pypy3 -fdv -s "'.;https://chocolatey.org/api/v2/'"
+  - choco pack
 
 test_script:
+  - install.bat
   - pypy3 --version
   - pypy3 check.py

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pypy3</id>
+    <version>6.0.0</version>
+    <packageSourceUrl>https://github.com/dhermes/chocolatey-pypy3</packageSourceUrl>
+    <owners>Danny Hermes</owners>
+    <title>PyPy 3</title>
+    <authors>The PyPy Developers</authors>
+    <projectUrl>http://www.pypy.org</projectUrl>
+    <iconUrl>https://rawgit.com/dhermes/chocolatey-pypy3/master/pypy-icon.png</iconUrl>
+    <copyright>2003-2018 The PyPy Developers</copyright>
+    <licenseUrl>https://bitbucket.org/pypy/pypy/src/release-pypy3.5-v6.0.0/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://bitbucket.org/pypy/pypy</projectSourceUrl>
+    <docsUrl>https://pypy.readthedocs.io/en/latest/</docsUrl>
+    <mailingListUrl>https://mail.python.org/mailman/listinfo/pypy-dev</mailingListUrl>
+    <bugTrackerUrl>https://bitbucket.org/pypy/pypy/issues</bugTrackerUrl>
+    <tags>python python3 pypy jit rpython</tags>
+    <summary>PyPy - a fast Python 3 interpreter</summary>
+    <description>PyPy is a fast, compliant Python 3.5 interpreter written in Python.</description>
+    <releaseNotes>https://pypy.readthedocs.io/en/latest/release-v6.0.0.html</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist2008"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
