@@ -9,14 +9,7 @@ matrix:
 platform:
   - x64
 
-install:
-  - choco pack
-
 test_script:
   - install.bat
   - pypy3 --version
   - pypy3 check.py
-
-artifacts:
-  - path: '**\*.nupkg' # find all NuGet packages recursively
-    name: pypy3

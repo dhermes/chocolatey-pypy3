@@ -29,6 +29,7 @@ def main():
         all3("size", size)
     except Exception as exc:
         all3("exc", exc)
+        all3("exc.args", exc.args)
 
 
 if __name__ == "__main__":
