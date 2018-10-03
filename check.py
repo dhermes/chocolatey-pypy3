@@ -24,7 +24,12 @@ def get_by_id(exc_arg):
     # and then trying to get the exception object from there.
     _, hex_val = exc_arg.split("<WindowsError object at 0x")
     hex_val, _ = hex_val.split(">", 1)
-    return ctypes.cast(int(hex_val, 16), ctypes.py_object).value
+    all3("hex_val", hex_val)
+    wrapped = ctypes.cast(int(hex_val, 16), ctypes.py_object)
+    try:
+        return wrapped.value
+    except Exception as exc:
+        return exc
 
 
 def main():
