@@ -21,9 +21,6 @@
     <summary>PyPy - a fast Python 3 interpreter</summary>
     <description>PyPy is a fast, compliant Python 3.5 interpreter written in Python.</description>
     <releaseNotes>https://pypy.readthedocs.io/en/latest/release-v6.0.0.html</releaseNotes>
-    <dependencies>
-      <dependency id="vcredist2008"/>
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
