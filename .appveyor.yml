@@ -5,9 +5,9 @@ build: off
 matrix:
   fast_finish: true
 
-# Always use a 64-bit machine.
+# Use 32-bit platform to match the word size of PyPy `.zip`
 platform:
-  - x64
+  - x86
 
 test_script:
   - install.bat
