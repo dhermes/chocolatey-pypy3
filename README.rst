@@ -11,6 +11,13 @@
 
 .. _Chocolatey package link: https://chocolatey.org/packages/pypy3
 
+Notice
+******
+
+This package is now being maintained as part of `refi64/chocolatey-pypy`_.
+
+.. _refi64/chocolatey-pypy: https://github.com/refi64/chocolatey-pypy
+
 Installing
 **********
 
