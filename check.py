@@ -1,9 +1,11 @@
 # Investigating
 # https://github.com/dhermes/ndb-rewrite/pull/12
+# https://ci.appveyor.com/project/dhermes/ndb-rewrite/builds/19183275/job/l9f4avygtw3r32bi
 
 import ctypes
 import nt
 import os
+import shutil
 import sys
 
 
@@ -65,6 +67,13 @@ def main():
     except Exception as exc:
         all3("no args exc", exc)
         all3("no args exc.args", exc.args)
+
+    try:
+        size = shutil.get_terminal_size()
+        all3("shutil size", size)
+    except Exception as exc:
+        all3("shutil exc", exc)
+        all3("shutil exc.args", exc.args)
 
 
 if __name__ == "__main__":

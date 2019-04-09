@@ -13,3 +13,6 @@ test_script:
   - pypy3 --version
   - pypy3 check.py
   - py -3.7 check.py
+  - py -3.7 -m pip install --upgrade pip
+  - py -3.7 -m pip install --upgrade virtualenv
+  - py -3.7 -m virtualenv venv -p pypy3
