@@ -12,3 +12,4 @@ test_script:
   - choco install pypy3
   - pypy3 --version
   - pypy3 check.py
+  - py -3.7 check.py
