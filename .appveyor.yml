@@ -5,11 +5,10 @@ build: off
 matrix:
   fast_finish: true
 
-# Use 32-bit platform to match the word size of PyPy `.zip`
 platform:
-  - x86
+  - x64
 
 test_script:
-  - install.bat
+  - choco install pypy
   - pypy3 --version
   - pypy3 check.py
