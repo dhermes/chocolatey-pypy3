@@ -9,6 +9,6 @@ platform:
   - x64
 
 test_script:
-  - choco install pypy
+  - choco install pypy3
   - pypy3 --version
   - pypy3 check.py
